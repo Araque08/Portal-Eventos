@@ -8,7 +8,7 @@ interface EventCardProps {
 
 function EventCard(props: EventCardProps) {
   return (
-    <div className="bg-white shadow-md rounded-lg p-6">
+    <div className="bg-white max-w-7xl mx-auto shadow-md rounded-lg p-6">
       <h2 className="text-xl font-bold text-gray-800">{props.titulo}</h2>
 
       <p className="text-gray-600">Fecha: {props.fecha}</p>
